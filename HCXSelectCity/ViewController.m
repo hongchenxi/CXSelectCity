@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "HCXSelectCityController.h"
 @interface ViewController ()
 
 @end
@@ -22,6 +22,12 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)presentSelectCityVC:(id)sender {
+    
+    HCXSelectCityController *selectVC = [[HCXSelectCityController alloc]init];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:selectVC];
+    [self.navigationController presentViewController:nav animated:YES completion:nil];
 }
 
 @end

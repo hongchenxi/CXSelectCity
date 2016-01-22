@@ -15,6 +15,13 @@
 		A028E1F61C52005400C591A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A028E1F41C52005400C591A7 /* LaunchScreen.storyboard */; };
 		A028E2011C52005400C591A7 /* HCXSelectCityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A028E2001C52005400C591A7 /* HCXSelectCityTests.m */; };
 		A028E20C1C52005400C591A7 /* HCXSelectCityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A028E20B1C52005400C591A7 /* HCXSelectCityUITests.m */; };
+		A028E21C1C5200DD00C591A7 /* HCXSelectCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = A028E21B1C5200DD00C591A7 /* HCXSelectCityController.m */; };
+		A028E2261C5227BD00C591A7 /* citydict.plist in Resources */ = {isa = PBXBuildFile; fileRef = A028E2251C5227BD00C591A7 /* citydict.plist */; };
+		A028E2331C52313200C591A7 /* HCXHeadSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A028E2311C52313200C591A7 /* HCXHeadSectionCell.m */; };
+		A028E2341C52313200C591A7 /* HCXHeadSectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A028E2321C52313200C591A7 /* HCXHeadSectionCell.xib */; };
+		A028E2381C52325B00C591A7 /* HCXCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A028E2361C52325B00C591A7 /* HCXCityCollectionViewCell.m */; };
+		A028E2391C52325B00C591A7 /* HCXCityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A028E2371C52325B00C591A7 /* HCXCityCollectionViewCell.xib */; };
+		C4AFA6B299829D59313734B6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 834CEC3BA2FA1B8CE08EA1FC /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AC5AB71C9DE16958FA799A0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		834CEC3BA2FA1B8CE08EA1FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A028E1E31C52005400C591A7 /* HCXSelectCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCXSelectCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A028E1E71C52005400C591A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A028E1E91C52005400C591A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,16 @@
 		A028E2071C52005400C591A7 /* HCXSelectCityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCXSelectCityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A028E20B1C52005400C591A7 /* HCXSelectCityUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCXSelectCityUITests.m; sourceTree = "<group>"; };
 		A028E20D1C52005400C591A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A028E21A1C5200DD00C591A7 /* HCXSelectCityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXSelectCityController.h; sourceTree = "<group>"; };
+		A028E21B1C5200DD00C591A7 /* HCXSelectCityController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXSelectCityController.m; sourceTree = "<group>"; };
+		A028E2251C5227BD00C591A7 /* citydict.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = citydict.plist; sourceTree = "<group>"; };
+		A028E2301C52313200C591A7 /* HCXHeadSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXHeadSectionCell.h; sourceTree = "<group>"; };
+		A028E2311C52313200C591A7 /* HCXHeadSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXHeadSectionCell.m; sourceTree = "<group>"; };
+		A028E2321C52313200C591A7 /* HCXHeadSectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCXHeadSectionCell.xib; sourceTree = "<group>"; };
+		A028E2351C52325B00C591A7 /* HCXCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCXCityCollectionViewCell.h; sourceTree = "<group>"; };
+		A028E2361C52325B00C591A7 /* HCXCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCXCityCollectionViewCell.m; sourceTree = "<group>"; };
+		A028E2371C52325B00C591A7 /* HCXCityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HCXCityCollectionViewCell.xib; sourceTree = "<group>"; };
+		A55C5B6B7BEEB7A29FF9B560 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4AFA6B299829D59313734B6 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +98,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41E1A60BB15D3730993D9F36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				834CEC3BA2FA1B8CE08EA1FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A028E1DA1C52005400C591A7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				A028E1FF1C52005400C591A7 /* HCXSelectCityTests */,
 				A028E20A1C52005400C591A7 /* HCXSelectCityUITests */,
 				A028E1E41C52005400C591A7 /* Products */,
+				F392A059741D37D9B6C2BCE4 /* Pods */,
+				41E1A60BB15D3730993D9F36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +131,7 @@
 		A028E1E51C52005400C591A7 /* HCXSelectCity */ = {
 			isa = PBXGroup;
 			children = (
+				A028E2191C52006E00C591A7 /* SelectCity */,
 				A028E1E91C52005400C591A7 /* AppDelegate.h */,
 				A028E1EA1C52005400C591A7 /* AppDelegate.m */,
 				A028E1EC1C52005400C591A7 /* ViewController.h */,
@@ -140,6 +171,31 @@
 			path = HCXSelectCityUITests;
 			sourceTree = "<group>";
 		};
+		A028E2191C52006E00C591A7 /* SelectCity */ = {
+			isa = PBXGroup;
+			children = (
+				A028E2251C5227BD00C591A7 /* citydict.plist */,
+				A028E21A1C5200DD00C591A7 /* HCXSelectCityController.h */,
+				A028E21B1C5200DD00C591A7 /* HCXSelectCityController.m */,
+				A028E2301C52313200C591A7 /* HCXHeadSectionCell.h */,
+				A028E2311C52313200C591A7 /* HCXHeadSectionCell.m */,
+				A028E2321C52313200C591A7 /* HCXHeadSectionCell.xib */,
+				A028E2351C52325B00C591A7 /* HCXCityCollectionViewCell.h */,
+				A028E2361C52325B00C591A7 /* HCXCityCollectionViewCell.m */,
+				A028E2371C52325B00C591A7 /* HCXCityCollectionViewCell.xib */,
+			);
+			path = SelectCity;
+			sourceTree = "<group>";
+		};
+		F392A059741D37D9B6C2BCE4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AC5AB71C9DE16958FA799A0 /* Pods.debug.xcconfig */,
+				A55C5B6B7BEEB7A29FF9B560 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A028E2101C52005400C591A7 /* Build configuration list for PBXNativeTarget "HCXSelectCity" */;
 			buildPhases = (
+				5F973AF793BB424F8894370A /* Check Pods Manifest.lock */,
 				A028E1DF1C52005400C591A7 /* Sources */,
 				A028E1E01C52005400C591A7 /* Frameworks */,
 				A028E1E11C52005400C591A7 /* Resources */,
+				EAA6CC6C89417E885ACEC7F4 /* Embed Pods Frameworks */,
+				3C1E7510215BF419785BE0AC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +261,7 @@
 		A028E1DB1C52005400C591A7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HCX;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "洪晨希";
 				TargetAttributes = {
@@ -243,7 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A028E2341C52313200C591A7 /* HCXHeadSectionCell.xib in Resources */,
 				A028E1F61C52005400C591A7 /* LaunchScreen.storyboard in Resources */,
+				A028E2261C5227BD00C591A7 /* citydict.plist in Resources */,
+				A028E2391C52325B00C591A7 /* HCXCityCollectionViewCell.xib in Resources */,
 				A028E1F31C52005400C591A7 /* Assets.xcassets in Resources */,
 				A028E1F11C52005400C591A7 /* Main.storyboard in Resources */,
 			);
@@ -265,14 +328,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3C1E7510215BF419785BE0AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F973AF793BB424F8894370A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA6CC6C89417E885ACEC7F4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A028E1DF1C52005400C591A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A028E21C1C5200DD00C591A7 /* HCXSelectCityController.m in Sources */,
+				A028E2381C52325B00C591A7 /* HCXCityCollectionViewCell.m in Sources */,
 				A028E1EE1C52005400C591A7 /* ViewController.m in Sources */,
 				A028E1EB1C52005400C591A7 /* AppDelegate.m in Sources */,
 				A028E1E81C52005400C591A7 /* main.m in Sources */,
+				A028E2331C52313200C591A7 /* HCXHeadSectionCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +523,7 @@
 		};
 		A028E2111C52005400C591A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC5AB71C9DE16958FA799A0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HCXSelectCity/Info.plist;
@@ -420,6 +535,7 @@
 		};
 		A028E2121C52005400C591A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55C5B6B7BEEB7A29FF9B560 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HCXSelectCity/Info.plist;
@@ -496,6 +612,7 @@
 				A028E2121C52005400C591A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A028E2131C52005400C591A7 /* Build configuration list for PBXNativeTarget "HCXSelectCityTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +621,7 @@
 				A028E2151C52005400C591A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A028E2161C52005400C591A7 /* Build configuration list for PBXNativeTarget "HCXSelectCityUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +630,7 @@
 				A028E2181C52005400C591A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
