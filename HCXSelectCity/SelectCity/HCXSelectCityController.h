@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+@class HCXSelectCityController;
+
+@protocol HCXSelectCityControllerDelegate <NSObject>
+
+@optional
+- (void)didSelectedCity:(HCXSelectCityController *)seleccityVC selectedCityName:(NSString *)cityName;
+
+@end
 
 @interface HCXSelectCityController : UIViewController
+
+@property (nonatomic, copy) NSArray *hotCitys;
+
+@property (nonatomic, weak) id<HCXSelectCityControllerDelegate> delegate;
 
 @end
